@@ -1,5 +1,5 @@
 # Spring Boot + Debezium + MySQL
-![image](https://github.com/HimanshBhatnagar/spring-boot-debezium/assets/36370178/60869fca-772c-4e45-b8a2-1895ef2efbaa)
+![image](https://github.com/HimanshBhatnagar/spring-boot-debezium/assets/36370178/5c134f87-12a2-48e7-9292-76ba22cc9afe)
 
 (src- https://www.baeldung.com/debezium-intro)
 
