@@ -24,6 +24,10 @@ In this project, I implement the Debezium service programmatically, and run via 
 <br>
 
 ## HOW TO TEST
+Useful Links:-
+For more information visit this [link](https://debezium.io/blog/2022/11/10/debezium-2-1-alpha1-released/).
+For Configurations visit [link](https://debezium.io/documentation/reference/stable/operations/debezium-server.html#debezium-source-configuration-properties).
+
 1. Boot up a Redis on local
    
 ### DESCRIPTIONS OF MYSQL BINLOG CONFIGURATION PROPERTIES
@@ -34,9 +38,6 @@ eg. file= my.ini, path= C:\ProgramData\MySQL\MySQL Server 8.0
 | server-id | The value for the server-id must be unique for each server and replication client in the MySQL cluster. During MySQL connector set up, Debezium assigns a unique server ID to the connector. |
 | log-bin | Specifies the base name to use for binary log files. With binary logging enabled, the server logs all statements that change data to the binary log, which is used for backup and replication. |
 | binlog_format | The binlog-format must be set to ROW or row. |
-
-For more information visit this [link](https://debezium.io/blog/2022/11/10/debezium-2-1-alpha1-released/).
-For Configurations visit [link](https://debezium.io/documentation/reference/stable/operations/debezium-server.html#debezium-source-configuration-properties).
 
 1. Once inside, login into MySQL server:
 ```shell
